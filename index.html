@@ -14,6 +14,7 @@
 	<link rel="stylesheet" type="text/css" href="css/owl.carousel.css"/>
 	<link rel="stylesheet" type="text/css" href="css/animate.css"/>
 	<link rel="stylesheet" type="text/css" href="css/main.css"/>
+	<link rel="stylesheet" type="text/css" href="css/terminal.css"/>
 
 	
 	<script type="text/javascript" src="js/jquery.js"></script>
@@ -24,6 +25,15 @@
 	<script type="text/javascript" src="js/parallax.js"></script>
 	<script type="text/javascript" src="js/nicescroll.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
+	<script src="js/%20typed.js"></script>
+	<script>
+		$(function(){
+			$(".element").typed({
+				strings: ["First sentence.", "Second sentence."],
+				typeSpeed: 0
+			});
+		});
+	</script>
 </head>
 <body>
 	
@@ -207,7 +217,7 @@
 
 		</div>
 	</section>
-	<!--  And App Features Section  -->
+	<!--  End App Features Section  -->
 
 
 
@@ -255,9 +265,19 @@
 		</div>
 	</section>
 	<!--  End Testimonials Section  -->
+<!--TODO edit testimonials section to inlcude something relevant-->
+<!-- Interactive Terminal Section -->
 
-
-
+	<section class="terminal_section">
+		<span id="typed" style="white-space:pre"></span>
+		<div class="element">jasonlewris ~$</div>
+		<div class="element no display">jasonlewris ~$</div>
+		<div class="element no display">jasonlewris ~$</div>
+		<div class="element no display">jasonlewris ~$</div>
+		<div class="element no display">jasonlewris ~$</div>
+	</section>
+	<!-- End Interactive Terminal Section -->
+<!--TODO edit the live terminal for use within website-->
 
 
 
@@ -266,7 +286,6 @@
 		<p class="cta_text animated wow fadeInDown">Feel free to contact me!</p>
 		<form action="http://pixelhint.us3.list-manage.com/subscribe/post?u=9cf3b8b1cfc597a436b9964d3&amp;id=2449ed590e" method="post" class="animated wow fadeIn" data-wow-duration="2s" id="submit_form">
 			<input type="email" id="mc-email" placeholder="Enter your email"/>
-			<a href="./documents/jasonlewris_resume.pdf"</a>
 			<button type="submit" id="mc_submit" >
 				<i class="icon"></i>
 			</button>
@@ -275,7 +294,7 @@
 		<div class="message" id="success_msg">Thank You For Your Message.</div>
 	</section>
 	<!--  End Email Subscription Section  -->
-
+<!--TODO Edit the email section so that resume can be downloaded immediately upon click-->
 
 	<!--  Footer Section  -->
 	<footer>
