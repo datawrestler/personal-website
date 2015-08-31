@@ -492,7 +492,7 @@ a.app_link{
 
 
 
-/*		App features 		*/
+/*		Overview 		*/
 
 .overview{
 	width: 100%;
@@ -524,16 +524,31 @@ a.app_link{
 	margin-bottom: 80px;
 }
 
+/*		Resume section 		*/
 
-
-
-
-
-
-
-
-
-/*		Testimonials section 		*/
+.resume {
+	width: 100%;
+	height: 800px;
+	margin: 2em auto;
+	border: 10px solid #f8f8f8;
+}
+.resume h1{
+	color: #525151;
+	font-family: "open_bold", Helvetica, Arial, sans-serif;
+	font-size: 34px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 46px;
+}
+.resume p{
+	padding: 1em;
+}
+.resume object {
+	width: 100%;
+	height: 700px;
+	display: block;
+	border: solid 2px #f8f8f8;
+}
 
 .testimonials{
 	padding: 100px 0;
