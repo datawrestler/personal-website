@@ -260,8 +260,8 @@ a.app_store_btn{
 }
 
 .play_icon,
-.android_icon,
-.iphone_icon{
+.python_icon,
+.github_icon{
 	display: inline-block;
 	width: 16px;
 	height: 16px;
@@ -274,12 +274,12 @@ a.app_store_btn{
 	background: url('../img/play.png') no-repeat;
 }
 
-.iphone_icon{
-	background: url('../img/github.png') no-repeat;
+.github_icon{
+	background: url('../img/gitstatic.png') no-repeat;
 }
 
-.android_icon{
-	background: url('../img/android_app.png') no-repeat;
+.python_icon{
+	background: url('../img/pythonstatic.png') no-repeat;
 }
 
 
@@ -293,12 +293,12 @@ a.app_store_btn:hover .play_icon{
 	background: url('../img/play_hover.png') no-repeat;
 }
 
-a.app_store_btn:hover .iphone_icon{
-	background: url('../img/github_hover.png') no-repeat;
+a.app_store_btn:hover .github_icon{
+	background: url('../img/git_hover.png') no-repeat;
 }
 
-a.app_store_btn:hover .android_icon{
-	background: url('../img/android_app_hover.png') no-repeat;
+a.app_store_btn:hover .python_icon{
+	background: url('../img/python_hover.png') no-repeat;
 }
 
 a.app_link{
@@ -317,7 +317,7 @@ a.app_link:focus{
 
 a.app_store_btn,
 .play_icon,
-.iphone_icon,
+.github_icon,
 .android_icon,
 a.app_link{
 	transition: all .2s linear;
@@ -494,7 +494,7 @@ a.app_link{
 
 /*		App features 		*/
 
-.app_features{
+.overview{
 	width: 100%;
 	padding: 100px 0 20px 0;
 	background-color: #41c17d;
@@ -504,7 +504,7 @@ a.app_link{
 	background-image: linear-gradient(bottom, #47ad76 0%, #47ad76 0.27%, #40c27d 99.46%, #40c27d 100%);
 }
 
-.app_features h1{
+.overview h1{
 	color: #fff;
 	font-family: "open_semibold", Helvetica, Arial, sans-serif;
 	font-size: 20px;
@@ -512,7 +512,7 @@ a.app_link{
 	word-break: break-word;
 }
 
-.app_features p{
+.overview p{
 	color: #e0f7eb;
 	font-family: "open_regular", Helvetica, Arial, sans-serif;
 	font-size: 16px;
@@ -520,7 +520,7 @@ a.app_link{
 	line-height: 28px;
 }
 
-.app_features .details{
+.overview .details{
 	margin-bottom: 80px;
 }
 
