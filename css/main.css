@@ -194,7 +194,79 @@ header .social li:first-child{
 }
 
 
+/* D3 Interactive visual section */
+#typed {
+}
+#tooltip {
+	-moz-transition: all 0.15s;
+	-o-transition: all 0.15s;
+	-webkit-transition: all 0.15s;
+	transition: all 0.15s;
+	opacity: 0.90;
+	position: absolute;
+	min-width: 60px;
+	height: auto;
+	padding: 10px;
+	background-color: gray;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+	box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+	pointer-events: none;
+}
 
+#tooltip.hidden {
+	display: none;
+}
+
+#tooltip p {
+	margin: 0;
+	font-family: sans-serif;
+	font-size: 16px;
+	line-height: 20px;
+}
+.scale {
+	margin-left: 20px;
+}
+
+path {
+	fill: steelblue;
+	stroke: #000;
+	stroke-width: .5px;
+}
+
+.land-boundary {
+	stroke: black;
+	stroke-width: 3px;
+}
+
+.county-boundary {
+	stroke: #aaa;
+	stroke-width: 0.2px;
+}
+
+.titletext {
+	fill: #525252;
+	font-family: "open_bold", Helvetica, Arial, sans-serif;
+	font-size: 34px;
+	font-weight: bold;
+	word-break: break-word;
+
+}
+
+.titlesub {
+	fill: Black;
+	font-family: sans-serif;
+	font-size: 10px;
+}
+
+.legendtext {
+	fill: black;
+	font-family: sans-serif;
+	font-size: 16px;
+}
 
 
 
