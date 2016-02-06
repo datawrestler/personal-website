@@ -195,6 +195,19 @@ header .social li:first-child{
 
 
 /* D3 Interactive visual section */
+
+z {
+	margin-left: 0px;
+	position: relative;
+	left: 30px;
+	color: #525252;
+	font-family: "open_bold", Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	word-break: break-word;
+}
+
+
 #typed {
 }
 #tooltip {
